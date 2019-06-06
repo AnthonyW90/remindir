@@ -34,8 +34,14 @@ Tydy is an app to help track recurring chores or tasks.
 
 
 ### Essential features:
+Features listed above
 
 ### Really-great-to-haves:
+- Drag and drop tasks
+- Notifications
+- Ability to upload picture of completed task
+- Earn points for completed tasks
 
 ### Nice-to-haves:
-
+- Desktop app (electron)
+- Mobile app (ios & android)
