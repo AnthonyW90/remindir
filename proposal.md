@@ -34,19 +34,18 @@ As a gamer, I want to track what daily quests/bosses I have done for the day, an
 ## Schedule
 #### Deadlines
 
-     June
-- [ ] 12  Wireframe/design mockup
-- [ ] 12  Simple vue app for testing
-- [ ] 15  djangoRest
-- [ ] 16  Homepage
-- [ ] 17  User creation/login/logout
-- [ ] 18  Groups
-- [ ] 19  Tasks
-- [ ] 20  Household
-- [ ] 21  Dependents
-- [ ] 22  Assign Groups
-- [ ] 24  Notifications
-- [ ] 28  Stretch goals or additional time if needed
+- [ ] June 12  Wireframe/design mockup
+- [ ] June 12  Simple vue app for testing
+- [ ] June 15  djangoRest
+- [ ] June 16  Homepage
+- [ ] June 17  User creation/login/logout
+- [ ] June 18  Groups
+- [ ] June 19  Tasks
+- [ ] June 20  Household
+- [ ] June 21  Dependents
+- [ ] June 22  Assign Groups
+- [ ] June 24  Notifications
+- [ ] June 28  Stretch goals or additional time if needed
 
 
 ## Feature List
