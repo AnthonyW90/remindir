@@ -1,7 +1,7 @@
 
 # Capstone Proposal
 
-## Tydy
+## Remindir
 
 ## Project Overview
 Tydy is an app to help track recurring chores or tasks.
@@ -19,9 +19,11 @@ Tydy is an app to help track recurring chores or tasks.
 - As dependent, view only tasks that are assigned
 
 ### User stories
+As a parent, I want to assign chores to my child so I can track them.
 
+As a forgetful person, I want to shedule recurring tasks so I don't forget to do them.
 
-#### Questions to ask yourself about functionalities
+As a gamer, I want to track what daily quests/bosses I have done for the day, and have it reset the next day.
 
 
 ## Data Model
