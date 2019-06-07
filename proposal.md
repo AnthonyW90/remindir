@@ -28,7 +28,7 @@ As a gamer, I want to track what daily quests/bosses I have done for the day, an
 
 ## Data Model
 
-[Imgur](https://i.imgur.com/eMUfkvB.png)
+![Imgur](https://i.imgur.com/eMUfkvB.png)
 
 ## Schedule
 
