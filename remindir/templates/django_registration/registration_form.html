@@ -1,7 +1,7 @@
 {% extends 'auth_layout.html' %}
 {% load crispy_forms_tags %}
 
-{% block content %}
+{% block auth %}
     <h3>Create Your Account</h3>
     <div class="registration-form-container">
         <form method="POST">
@@ -10,4 +10,5 @@
         <button type="submit" class="btn btn-sm btn-outline-primary">Create Account</button>
         </form>
     </div>
+    <p class="mt-2">Or <a href="{% url 'login' %}">Login</a></p>
 {% endblock %}

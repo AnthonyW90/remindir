@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     'rest_auth.registration',
 
     'crispy_forms',
+    'webpack_loader',
 
     'recurrence',
 
@@ -148,6 +149,7 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 # django.contrib.sites
 SITE_ID = 1
+SITE_URL = "http://127.0.0.1:8000"
 
 # django-allauth
 ACCOUNT_EMAIL_VERIFICATION = 'none'
@@ -157,4 +159,12 @@ ACCOUNT_EMAIL_REQUIRED = (True)
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': ('rest_framework.authentication.TokenAuthentication', 'rest_framework.authentication.SessionAuthentication'),
     'DEFAULT_PERMISSION_CLASSES': ('rest_framework.permissions.IsAuthenticated',),
+}
+
+
+WEBPACK_LOADER = {
+    'DEFAULT': {
+        'BUNDLE_DIR_NAME': 'dist/',
+        'STATS_FILE': os.path.join(BASE_DIR, 'frontend', 'webpack-stats.json'),
+    }
 }
