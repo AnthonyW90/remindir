@@ -34,13 +34,13 @@ As a gamer, I want to track what daily quests/bosses I have done for the day, an
 ## Schedule
 #### Deadlines
 
-- [ ] June 12  Wireframe/design mockup
-- [ ] June 12  Simple vue app for testing
-- [ ] June 15  djangoRest
-- [ ] June 16  Homepage
-- [ ] June 17  User creation/login/logout
-- [ ] June 18  Groups
-- [ ] June 19  Tasks
+- [x] June 12  Wireframe/design mockup
+- [x] June 12  Simple vue app for testing
+- [x] June 15  djangoRest
+- [x] June 16  Homepage
+- [x] June 17  User creation/login/logout
+- [x] June 18  Groups
+- [x] June 19  Tasks
 - [ ] June 20  Household
 - [ ] June 21  Dependents
 - [ ] June 22  Assign Groups
