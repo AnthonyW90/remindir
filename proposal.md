@@ -4,7 +4,7 @@
 ## Remindir
 
 ## Project Overview
-Tydy is an app to help track recurring chores or tasks.
+remindir is an app to help track recurring chores or tasks.
 
 ## Features
 - Create New Account
