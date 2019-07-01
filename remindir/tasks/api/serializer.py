@@ -6,6 +6,8 @@ from tasks.models import Task, TaskGroup
 class TaskSerializer(serializers.ModelSerializer):
     created_by = serializers.StringRelatedField(read_only=True)
     created_at = serializers.SerializerMethodField()
+    completed = serializers.BooleanField()
+    group_slug = serializers.SerializerMethodField()
 
     class Meta:
         model = Task
@@ -13,6 +15,9 @@ class TaskSerializer(serializers.ModelSerializer):
 
     def get_created_at(self, instance):
         return instance.created_at.strftime("%B %d, %Y")
+
+    def get_group_slug(self, instance):
+        return instance.taskgroup.slug
 
 
 class TaskGroupSerializer(serializers.ModelSerializer):

@@ -6,11 +6,22 @@
 </template>
 
 <script>
+import { apiService } from "@/common/api.service.js";
 import Navbar from "./components/Navbar.vue";
 export default {
   name: "App",
   components: {
     Navbar
+  },
+  methods: {
+    async setUserInfo() {
+      const data = await apiService("/api/user/");
+      const requestUser = data['username'];
+      window.localStorage.setItem('username', requestUser)
+    }
+  },
+  created() {
+    this.setUserInfo()
   }
 };
 </script>

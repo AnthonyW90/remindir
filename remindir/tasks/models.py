@@ -10,7 +10,7 @@ class TaskGroup(models.Model):
     slug = models.SlugField(max_length=150, unique=True)
     created_by = models.ForeignKey(
         settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='taskgroups')
-    recurrences = RecurrenceField()
+    recurrences = RecurrenceField(blank=True, null=True)
 
     def __str__(self):
         return self.label
@@ -28,4 +28,4 @@ class Task(models.Model):
     completed = models.BooleanField(default=False)
 
     def __str__(self):
-        return f'${self.group} ${self.content}'
+        return f'${self.taskgroup} ${self.content}'

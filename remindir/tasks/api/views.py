@@ -19,7 +19,7 @@ class TaskGroupViewSet(viewsets.ModelViewSet):
         serializer.save(created_by=self.request.user)
 
     def get_queryset(self):
-        return self.request.user.taskgroups.all()
+        return self.request.user.taskgroups.all().order_by('created_at')
 
 
 class TaskCreateAPIView(generics.CreateAPIView):
