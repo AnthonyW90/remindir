@@ -7886,6 +7886,11 @@ vue@^2.6.10:
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.10.tgz#a72b1a42a4d82a721ea438d1b6bf55e66195c637"
   integrity sha512-ImThpeNU9HbdZL3utgMCq0oiMzAkt1mcgy3/E6zWC/G6AaQoeuFdsl9nDhTDU3X1R6FK7nsIUuRACVcjI+A2GQ==
 
+vuetify@^1.5.16:
+  version "1.5.24"
+  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-1.5.24.tgz#d5cf6e7289570d5d05f8832a097cd435d36d37df"
+  integrity sha512-guFOgEgZ8VpSgNXOv1QL2fOliaJBoiyNnf+bBqcXsnIppJGRlW1wyT6Ux7ZlQyphSHs+UK1aJNUjcyAtoOiHWg==
+
 watchpack@^1.5.0:
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/watchpack/-/watchpack-1.6.0.tgz#4bc12c2ebe8aa277a71f1d3f14d685c7b446cd00"
@@ -7927,6 +7932,15 @@ webpack-bundle-analyzer@^3.3.0:
     mkdirp "^0.5.1"
     opener "^1.5.1"
     ws "^6.0.0"
+
+webpack-bundle-tracker@^0.4.2-beta:
+  version "0.4.3"
+  resolved "https://registry.yarnpkg.com/webpack-bundle-tracker/-/webpack-bundle-tracker-0.4.3.tgz#48a3e2226ddb9d24d704640ab4168c2d120f4526"
+  integrity sha512-Sl/+OsNhFAH3/c6XADupRu8jLvGojfXX0pZIIm3O5ZcJqkHHqlY4nLG+NVRcbDgM/jOeWimKDGQMVEa8FBeJ2g==
+  dependencies:
+    deep-extend "^0.6.0"
+    mkdirp "^0.5.1"
+    strip-ansi "^5.2.0"
 
 webpack-chain@^4.11.0:
   version "4.12.1"
